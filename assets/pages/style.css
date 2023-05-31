@@ -1,0 +1,48 @@
+.parallax {
+  /* Menentukan tinggi dan posisi parallax */
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+}
+
+.p-search {
+  padding-left: 277px;
+  padding-right: 277px;
+}
+
+@media only screen and (max-width: 768px) {
+  .parallax {
+    /* Menentukan tinggi dan posisi parallax */
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+  }
+  
+  .p-search {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .parallax {
+    /* Menentukan tinggi dan posisi parallax */
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+  }
+  
+  .p-search {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
